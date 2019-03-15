@@ -25,9 +25,12 @@
     <meta property="twitter:url" content="https://novzo.in">
     <meta property="twitter:image" content="img/logos/tt2.png">
     <meta property="twitter:image:alt" content="">
+    <!-- Libraries -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131403091-1"></script>
     <script>

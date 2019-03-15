@@ -3,9 +3,25 @@
   <?php include("includes/head.php");?>
   <body>
     <?php include("includes/header.php");?>
-    <div class="card">
+    <div>
+      <div class="profile-nav-card">
+        <p class="profile-nav-text">Profile</p>
+        <p class="profile-nav-text">My Bucket List</p>
+        <p class="profile-nav-text">Profile</p>
+        <p class="profile-nav-text">Profile</p>
+        <p class="profile-nav-text hand" id="groups_but">My Groups
+          <div id="groups">
+            <p class="list">Fiction</p>
+            <p class="list">Fiction</p>
+            <p class="list">Fiction</p>
+          </div>
+        </p>
+      </div>
+      <div class="novreads gradient">
+        <p class="novreads-text"><b>nov</b>reads</p>
+      </div>
     </div>
-    <div class="nav-card">
-    </div>
+
+    <?php include("includes/scripts.php");?>
   </body>
 </html>

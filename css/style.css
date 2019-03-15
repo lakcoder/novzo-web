@@ -1,0 +1,18 @@
+.novreads-text {
+  text-align: left;
+  margin: 1.5rem;
+}
+
+.profile-nav-text {
+  margin: 1rem;
+  text-align: left;
+  border-bottom: 1px solid;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+.list {
+  margin: 0.3rem;
+}

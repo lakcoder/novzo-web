@@ -1,6 +1,7 @@
 .novreads-text {
   text-align: left;
   margin: 1rem;
+  display: inline-block;
 }
 
 .profile-nav-text {
@@ -11,6 +12,12 @@
 
 .hand {
   cursor: pointer;
+}
+
+.new-post {
+  width: 50%;
+  float: right;
+  margin-right: 1rem;
 }
 
 .list {

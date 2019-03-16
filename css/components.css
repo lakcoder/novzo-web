@@ -17,7 +17,7 @@
   border-radius: 10px;
   display: inline-block;
   float:right;
-  z-index: 1000;
+  /* z-index: 1000; */
   height: 150px;
   color: #fff;
   font-size: 5rem;

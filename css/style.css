@@ -94,6 +94,9 @@
   float:right;
   margin-left: 1rem;
 }
+.sticky{
+  position: fixed;
+}
 li {
   float: left;
 }

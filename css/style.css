@@ -62,15 +62,22 @@
 }
 
 .nav-icon{
-  width:6%;
+  width:5%;
   display: flex;
   align-items:center;
-  padding: 0 0.5% 0px 0.5%;
   border-right: 1px solid #d3d3d3;
 }
 
+.nav-icon-settings{
+  border-right:0px;
+}
+
+.nav-icon-style{
+  margin-left: 1rem;
+  font-size: 1rem;
+}
 .nav-search{
-  width:55%;
+  width:59%;
 }
 .search-icon {
   width: 5%;
@@ -150,4 +157,10 @@ li a:hover {
   float:right;
   width:5%;
   padding: 1.1rem;
+}
+
+.nav-search-btn{
+  padding:1.8rem;
+  background: white;
+  border:0px;
 }

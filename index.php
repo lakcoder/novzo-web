@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="novreads gradient">
-        <p class="novreads-text"><b>nov</b>reads</p>
+        <p class="novreads-text"><b>nov</b><span style="font-size:5.455rem;">reads</span></p>
       </div>
     </div>
 

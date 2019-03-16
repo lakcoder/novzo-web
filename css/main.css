@@ -8,3 +8,7 @@ body {
 a, u {
     text-decoration: none; !important
 }
+
+input {
+  background: #fff;
+}

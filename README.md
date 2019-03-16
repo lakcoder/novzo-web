@@ -1,2 +1,2 @@
 # novzo-web
-The official repo of web development of novzo.in
+The official repo for web development of novzo.in

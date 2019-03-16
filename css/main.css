@@ -6,10 +6,15 @@ body {
 }
 
 a, u {
-    text-decoration: none; !important
+  text-decoration: none; !important
 }
 
-input {
+input, {
   background: #fff;
-  border-radius: 50px;
+  /* border-radius: 50px; */
+}
+
+button {
+  text-decoration: none; !important
+  background: #fff;
 }

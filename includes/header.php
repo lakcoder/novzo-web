@@ -12,11 +12,9 @@
         <li class="nav-search">
           <form action="/action_page.php">
             <input type="search" name="q" class="nav-input-search" placeholder="Search for Books, Posts...">
-
-            <!-- <input type="submit"> -->
         </li>
         <li class="search-icon">
-          <button type="submit" class="ti-search" />
+          <button type="submit" class="ti-search nav-search-btn" />
           </form>
         </li>
         <!-- <li class="nav-user">
@@ -39,13 +37,13 @@
         </li>
         <li class="nav-icon">
           <a class="active" href="#home">
-            <p class="nav-user-text">Profile</p>
+            <p class="nav-icon-style ti-bell"></p>
             <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
         </li>
-        <li class="nav-icon">
+        <li class="nav-icon nav-icon-settings">
           <a class="active" href="#home">
-            <p class="nav-user-text ti-settings"></p>
+            <p class="nav-icon-style ti-settings"></p>
             <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
         </li>

@@ -164,3 +164,23 @@ li a:hover {
   background: white;
   border:0px;
 }
+
+.btn {
+  background-color: #012345;
+  border: 2px solid #23D4FF;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1rem;
+  margin: 2rem;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn p{
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}

@@ -5,7 +5,7 @@
     <div id="sticky_nav" class="nav-card">
       <ul class="nav-list">
         <li class="novzo-logo">
-          <a class="active" href="#home">
+          <a class="active" href="index.php">
             <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/>
           </a>
         </li>

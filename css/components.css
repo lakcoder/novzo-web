@@ -59,3 +59,18 @@
   box-shadow: 0 8px 16px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: width 2s ease-in-out;
 }
+
+.exchange-card {
+  background: #fff;
+  border-radius: 15px;
+  display: inline-block;
+  float: left;
+  height: 300px;
+  width: 45%;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-right: 1%;
+  margin-left: 1%;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}

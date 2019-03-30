@@ -2,7 +2,8 @@
 <html lang="en" >
 
   <body>
-    <div id="sticky_nav" class="nav-card">
+    <h2 style="margin:0px; float:left; cursor:pointer"><span class="smallnav menu" onclick="openNav()">☰</span></h2>
+    <div id="sticky_nav" class="nav-card largenav">
       <ul class="nav-list">
         <li class="novzo-logo">
           <a class="active" href="index.php">
@@ -48,6 +49,16 @@
           </a>
         </li>
       </ul>
+    </div>
+    <div id="mobnav" class="sidenav">
+        <div class="container" style="background-color: #2874f0; padding-top: 10px;">
+            <span class="sidenav-heading"><a href="index.php"><img src="img/tt2.png" alt="Novzo Logo" height="55.76" width ="100" /></a></span>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        </div>
+        <a href="index.php">Services</a>
+        <a href="index.php">Home</a>
+        <a href="index.php">Etc</a>
+        <a href="index.php">Etc</a>
     </div>
   </body>
 </html>

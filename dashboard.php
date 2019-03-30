@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="novreads">
-        <p class="novreads-text"><b>nov</b>reads
+        <p class="novreads-text"><b>nov</b><span style="font-size:5.4rem;">zo</span> feed
           <form class="new-post" action="/action_page.php">
             <input type="search" name="q" class="nav-input-search border-50" placeholder="Add a post...">
             <!-- <input type="submit"> -->

@@ -93,6 +93,7 @@
   height:100%;
   padding: 22px;
 }
+
 .nav-user-profile li{
   display: inline;
   float:left;
@@ -218,6 +219,14 @@ li a:hover {
     color: #fff;
 }
 
+.mobSearch {
+  width: 10%;
+}
+
+.smallnav {
+  width: 90%;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav a {font-size: 18px;}
 }
@@ -238,9 +247,19 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
     .largenav {
-        display: none;
+      display: none;
     }
     .smallnav{
-        display: block;
+      display: block;
+    }
+    .nav-input-search{
+      align-items:center;
+      font-size: 14px;
+      font-weight: 0.2px;
+      border:0px;
+      /* border-right: 1px solid #d3d3d3; */
+      width:93%;
+      height:80%;
+      padding: 8px;
     }
 }

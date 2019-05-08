@@ -2,7 +2,10 @@
 <html lang="en" >
 
   <body>
-    <h2 style="margin:0px; float:left; cursor:pointer"><span class="smallnav menu" onclick="openNav()">☰</span></h2>
+    <div>
+      <h2 style="margin:0px; float:left; cursor:pointer"><span class="smallnav menu openNav" onclick="openNav()">☰</span></h2>
+      <input type="search" name="q" class="smallnav nav-input-search mobSearch" placeholder="Search for Books, Posts..." />
+    </div>
     <div id="sticky_nav" class="nav-card largenav">
       <ul class="nav-list">
         <li class="novzo-logo">

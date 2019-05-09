@@ -25,5 +25,12 @@ $("#want").change(function () {
     var wants = $(this).val();
     for (var i = 0; i < wants; i++)
       // $("#inputArea").empty();
-      $("#inputArea").append('<input name="inputs[]" />');
+      $("#wantArea").append('<input name="inputs[]" /><br/><br/>');
+});
+
+$("#give").change(function () {
+    var gives = $(this).val();
+    for (var i = 0; i < gives; i++)
+      // $("#inputArea").empty();
+      $("#giveArea").append('<input name="inputs[]" /><br/><br/>');
 });

@@ -53,6 +53,20 @@
         </li>
       </ul>
     </div>
+    <div>
+      <div class="nav-options-card">
+        <p><b>Book Reviews</b></p>
+      </div>
+      <div class="nav-options-card">
+        <p><b>Exchangable Books</b></p>
+      </div>
+      <div class="nav-options-card">
+        <p><b>Blogs</b></p>
+      </div>
+      <div class="nav-options-card">
+        <p><b>Posts</b></p>
+      </div>
+    </div>
     <div id="mobnav" class="sidenav">
         <div class="container" style="background-color: #2874f0; padding-top: 10px;">
             <span class="sidenav-heading"><a href="index.php"><img src="img/tt2.png" alt="Novzo Logo" height="55.76" width ="100" /></a></span>

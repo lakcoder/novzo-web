@@ -90,7 +90,7 @@
   border:0px;
   /* border-right: 1px solid #d3d3d3; */
   width:100%;
-  height:100%;
+  height:60px;
   padding: 22px;
 }
 
@@ -164,13 +164,14 @@ li a:hover {
   padding:1.8rem;
   background: white;
   border:0px;
+  height: 60px;
 }
 
 .btn {
-  background-color: #012345;
-  border: 2px solid #23D4FF;
+  background-color: #fff;
+  border: 2px solid #012345;
   border-radius: 20px;
-  color: #fff;
+  cursor: pointer;
   font-size: 1rem;
   margin: 2rem;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -182,8 +183,8 @@ li a:hover {
 }
 
 .btn:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 /*Sidenav*/

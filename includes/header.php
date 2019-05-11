@@ -54,20 +54,26 @@
       </ul>
     </div>
     <div>
-      <div class="nav-options-card">
-        <p><b>Book Reviews</b></p>
-      </div>
+      <a href="reviews.php">
+        <div class="nav-options-card">
+          <p><b>Book Reviews</b></p>
+        </div>
+      </a>
       <a href="exchanger.php">
         <div class="nav-options-card">
           <p><b>Exchangable Books</b></p>
         </div>
       </a>
-      <div class="nav-options-card">
-        <p><b>Blogs</b></p>
-      </div>
-      <div class="nav-options-card">
-        <p><b>Posts</b></p>
-      </div>
+      <a href="blog.php">
+        <div class="nav-options-card">
+          <p><b>Blogs</b></p>
+        </div>
+      </a>
+      <a href="posts.php">
+        <div class="nav-options-card">
+          <p><b>Posts</b></p>
+        </div>
+      </a>
     </div>
     <div id="mobnav" class="sidenav">
         <div class="container" style="background-color: #2874f0; padding-top: 10px;">

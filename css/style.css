@@ -204,6 +204,10 @@ li a:hover {
   appearance: none;
 }
 
+#wantArea div {
+  display: none;
+}
+
 /*Sidenav*/
 .sidenav {
     height: 100%;

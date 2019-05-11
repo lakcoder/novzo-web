@@ -1,6 +1,10 @@
 <?php
+  $pageTitle = "Exchanger";
+  session_start();
+  error_reporting(E_ALL);
+  ini_set('display_errors', '1');
   if(isset($_POST['exchange'])){
-
+    require "../dbconnect/connect_to_signups.php";
   }else{
 ?>
 
@@ -9,7 +13,7 @@
   <?php include("includes/head.php");?>
   <body>
     <?php include("includes/header.php");?>
-    <form>
+    <form action="exchanger.php" method="post">
       <div class="col-lg-6 col-md-6 exchange-card">
         <h2>Books you want ro read</h2><hr>
         <p>Select number of books:
@@ -38,7 +42,7 @@
         <div id="giveArea"></div>
         </p>
       </div>
-      <button type="submit" class="btn" name="button"><p>Submit</p></button>
+      <button type="submit" class="btn" name="exchange"><p>Submit</p></button>
     </form>
 
     <?php include("includes/scripts.php");?>

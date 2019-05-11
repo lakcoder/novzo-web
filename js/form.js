@@ -23,14 +23,18 @@
 
 $("#want").change(function () {
     var wants = $(this).val();
-    for (var i = 0; i < wants; i++)
-      // $("#inputArea").empty();
+    $("#wantArea").empty();
+    // $("#wantArea").append('<div></div>');
+    for (var i = 0; i < wants; i++){
       $("#wantArea").append('<input name="inputs[]" /><br/><br/>');
+    }
 });
 
 $("#give").change(function () {
     var gives = $(this).val();
-    for (var i = 0; i < gives; i++)
-      // $("#inputArea").empty();
+    $("#giveArea").empty();
+    // $("#giveArea").append('<div class="hide"></div>');
+    for (var i = 0; i < gives; i++){
       $("#giveArea").append('<input name="inputs[]" /><br/><br/>');
+    }
 });

@@ -57,9 +57,11 @@
       <div class="nav-options-card">
         <p><b>Book Reviews</b></p>
       </div>
-      <div class="nav-options-card">
-        <p><b>Exchangable Books</b></p>
-      </div>
+      <a href="exchanger.php">
+        <div class="nav-options-card">
+          <p><b>Exchangable Books</b></p>
+        </div>
+      </a>
       <div class="nav-options-card">
         <p><b>Blogs</b></p>
       </div>

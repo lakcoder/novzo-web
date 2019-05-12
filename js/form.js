@@ -26,7 +26,7 @@ $("#want").change(function () {
     $("#wantArea").empty();
     // $("#wantArea").append('<div></div>');
     for (var i = 0; i < wants; i++){
-      $("#wantArea").append('<input name="inputs[]" /><br/><br/>');
+      $("#wantArea").append('<input name="inputs[]" placeholder="Enter a Book" /><br/><br/>');
     }
 });
 
@@ -35,6 +35,6 @@ $("#give").change(function () {
     $("#giveArea").empty();
     // $("#giveArea").append('<div class="hide"></div>');
     for (var i = 0; i < gives; i++){
-      $("#giveArea").append('<input name="inputs[]" /><br/><br/>');
+      $("#giveArea").append('<input name="inputs[]" placeholder="Enter a Book" /><br/><br/>');
     }
 });

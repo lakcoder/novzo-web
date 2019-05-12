@@ -6,7 +6,8 @@ body {
 }
 
 a, u {
-  text-decoration: none; !important
+  /* text-decoration: none; !important */
+  color: #012345;
 }
 
 input, {
@@ -16,5 +17,4 @@ input, {
 
 button {
   text-decoration: none; !important
-  background: #fff;
 }

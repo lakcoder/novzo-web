@@ -34,7 +34,7 @@
           </a>
         </li> -->
         <li class="nav-user">
-          <a class="active" href="#home">
+          <a class="active" href="dashboard.php">
             <p class="nav-user-text">Profile</p>
             <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
@@ -67,11 +67,6 @@
       <a href="blog.php">
         <div class="nav-options-card">
           <p><b>Blogs</b></p>
-        </div>
-      </a>
-      <a href="posts.php">
-        <div class="nav-options-card">
-          <p><b>Posts</b></p>
         </div>
       </a>
     </div>

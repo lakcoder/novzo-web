@@ -55,17 +55,17 @@
     </div>
     <div>
       <a href="reviews.php">
-        <div class="nav-options-card">
+        <div class="nav-review-card">
           <p><b>Book Reviews</b></p>
         </div>
       </a>
       <a href="exchanger.php">
-        <div class="nav-options-card">
+        <div class="nav-exchange-card">
           <p><b>Exchangable Books</b></p>
         </div>
       </a>
       <a href="blog.php">
-        <div class="nav-options-card">
+        <div class="nav-blog-card">
           <p><b>Blogs</b></p>
         </div>
       </a>

@@ -12,12 +12,16 @@
             <p style="color:#FFA500">Novice</p>
           </div>
           <div class="profile-2">
+            <img src="img/icons/post.png" alt="Profile Image" class="icon-img">
             <p><b style="font-size:2.1rem">12</b><br>Contributions</p>
-            <p><b style="font-size:2.1rem">7</b><br>Books Read</p>
-            <p><b style="font-size:2.1rem">19</b><br>Wishlist</p>
           </div>
-          <div class="profile-3">
-
+          <div class="profile-2">
+            <img src="img/icons/books.png" alt="Profile Image" class="icon-img">
+            <p><b style="font-size:2.1rem">7</b><br>Books Read</p>
+          </div>
+          <div class="profile-2" style="border-right: 1px solid #d3d3d3;">
+            <img src="img/icons/wishlist.png" alt="Profile Image" class="icon-img">
+            <p><b style="font-size:2.1rem">19</b><br>Wishlist</p>
           </div>
         </div>
       </div>

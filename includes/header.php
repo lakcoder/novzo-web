@@ -10,7 +10,7 @@
       <ul class="nav-list">
         <li class="novzo-logo">
           <a class="active" href="index.php">
-            <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/>
+            <img src="img/logos/novzologo.png" alt="novzo-logo" class="novzo-img"/>
           </a>
         </li>
         <li class="nav-search">

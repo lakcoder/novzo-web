@@ -18,3 +18,7 @@ input, {
 button {
   text-decoration: none; !important
 }
+
+footer {
+  background: #012345;
+}

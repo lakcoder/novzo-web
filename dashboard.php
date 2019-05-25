@@ -4,6 +4,43 @@
   <body>
     <?php include("includes/header.php");?>
     <div>
+      <div class="prof-card">
+        <div class="prof-content">
+          <div class="profile-1">
+            <img src="img\user-logo.png" alt="Profile Image" class="prof-user-img">
+            <p>Lakshya Shukla <button>Follow</button></p>
+            <p style="color:#FFA500">Novice</p>
+          </div>
+          <div class="profile-2">
+            <div class="icon-img">
+              <img src="img/icons/post.png" alt="Profile Image" class="icon-img">
+              <p><b style="font-size:2.1rem">12</b><br>Contributions</p>
+              <div style="text-align:right;padding-top:2rem;">
+
+              </div>
+            </div>
+            <div class="icon-img">
+              <img src="img/icons/books.png" alt="Profile Image" class="icon-img">
+              <p><b style="font-size:2.1rem">7</b><br>Books Read</p>
+              <div  style="text-align:right;padding-top:2rem;">
+                <button>Message</button>
+              </div>
+            </div>
+            <div class="icon-img">
+              <img src="img/icons/wishlist.png" alt="Profile Image" class="icon-img">
+              <p><b style="font-size:2.1rem">19</b><br>Wishlist</p>
+            </div>
+          </div>
+          <div class="profile-3">
+            <div>
+                <h3>Bio</h3>
+                <p style="font-size:1rem;">The BookMan<br>BookMan brings you Raw Quotes directly from the Great Books & People around the Globe.<br>Follow to get wisdom, knowledge & One step ahead. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div class="card profile-nav-card">
         <p class="profile-nav-text">Profile</p>
         <p class="profile-nav-text">My Bucket List</p>

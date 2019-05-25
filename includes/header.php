@@ -10,11 +10,11 @@
       <ul class="nav-list">
         <li class="novzo-logo">
           <a class="active" href="index.php">
-            <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/>
+            <img src="img/logos/novzologo.png" alt="novzo-logo" class="novzo-img"/>
           </a>
         </li>
         <li class="nav-search">
-          <form action="/action_page.php">
+          <form action="search.php" method="GET">
             <input type="search" name="q" class="nav-input-search" placeholder="Search for Books, Posts...">
         </li>
         <li class="search-icon">
@@ -33,10 +33,14 @@
             </ul>
           </a>
         </li> -->
+        <li class="nav-pic">
+          <a class="active" href="dashboard.php">
+            <img src="img/profile.png" style="height:1.1rem;width:1.1rem; padding-top:0.9rem;" />
+          </a>
+        </li>
         <li class="nav-user">
           <a class="active" href="dashboard.php">
             <p class="nav-user-text">Profile</p>
-            <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
         </li>
         <li class="nav-icon">
@@ -46,7 +50,7 @@
           </a>
         </li>
         <li class="nav-icon nav-icon-settings">
-          <a class="active" href="#home">
+          <a class="active" href="settings.php">
             <p class="nav-icon-style ti-settings"></p>
             <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
@@ -56,17 +60,17 @@
     <div>
       <a href="reviews.php">
         <div class="nav-review-card">
-          <p><b>Book Reviews</b></p>
+          <p style="color:#fff"><b>Book Reviews</b></p>
         </div>
       </a>
       <a href="exchanger.php">
         <div class="nav-exchange-card">
-          <p><b>Exchangable Books</b></p>
+          <p style="color:#fff"><b>Exchangable Books</b></p>
         </div>
       </a>
       <a href="blog.php">
         <div class="nav-blog-card">
-          <p><b>Blogs</b></p>
+          <p style="color:#fff"><b>Blogs</b></p>
         </div>
       </a>
     </div>

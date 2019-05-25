@@ -1,3 +1,44 @@
+.prof-content {
+  display: flex;
+  color: #000;
+}
+
+.prof-user-img {
+  height: 10rem;
+  width: auto;
+  padding-top: 1rem;
+}
+
+.profile-1 {
+  font-size: 1.5rem;
+  width: 30%;
+  border-right: 1px solid #d3d3d3;
+}
+
+.profile-2 {
+  font-size: 1rem;
+  width: 40%;
+  display: flex;
+  /* text-align: left; */
+  border-right: 1px solid #d3d3d3;
+}
+
+.profile-3 {
+  text-align: left;
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 30%;
+  border-right: 1px solid #d3d3d3;
+}
+
+.icon-img {
+  height: 5rem;
+  width: auto;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1rem;
+}
+
 .novreads-text {
   text-align: left;
   margin: 1rem;
@@ -60,22 +101,31 @@
 }
 
 .nav-user{
-  width:13%;
+  width:11%;
   display: flex;
   align-items:center;
   padding: 0 0.5% 0px 0.5%;
   border-right: 1px solid #d3d3d3;
 }
 
+.nav-pic {
+  width:0%;
+  display: flex;
+  align-items:center;
+  padding: 0 0.5% 0px 0.5%;
+  /* border-right: 1px solid #d3d3d3; */
+  border-left: 1px solid #d3d3d3;
+}
+
 .nav-icon{
-  width:5%;
+  width:5.5%;
   display: flex;
   align-items:center;
   border-right: 1px solid #d3d3d3;
 }
 
 .nav-icon-settings{
-  border-right:0px;
+  border-right: 1px solid #d3d3d3;
 }
 
 .nav-icon-style{

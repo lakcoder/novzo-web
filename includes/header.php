@@ -33,10 +33,14 @@
             </ul>
           </a>
         </li> -->
+        <li class="nav-pic">
+          <a class="active" href="dashboard.php">
+            <img src="img/profile.png" style="height:1.1rem;width:1.1rem; padding-top:0.9rem;" />
+          </a>
+        </li>
         <li class="nav-user">
           <a class="active" href="dashboard.php">
             <p class="nav-user-text">Profile</p>
-            <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
         </li>
         <li class="nav-icon">
@@ -56,17 +60,17 @@
     <div>
       <a href="reviews.php">
         <div class="nav-review-card">
-          <p><b>Book Reviews</b></p>
+          <p style="color:#fff"><b>Book Reviews</b></p>
         </div>
       </a>
       <a href="exchanger.php">
         <div class="nav-exchange-card">
-          <p><b>Exchangable Books</b></p>
+          <p style="color:#fff"><b>Exchangable Books</b></p>
         </div>
       </a>
       <a href="blog.php">
         <div class="nav-blog-card">
-          <p><b>Blogs</b></p>
+          <p style="color:#fff"><b>Blogs</b></p>
         </div>
       </a>
     </div>

@@ -1,3 +1,31 @@
+.prof-content {
+  display: flex;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.prof-user-img {
+  height: 10rem;
+  width: auto;
+  padding-top: 1rem;
+}
+
+.profile-1 {
+  width: 20%;
+  border-right: 1px solid #d3d3d3;
+}
+
+.profile-2 {
+  text-align: left;
+  padding-left: 3%;
+  width: 40%;
+  border-right: 1px solid #d3d3d3;
+}
+
+.profile-3 {
+  width: 40%;
+}
+
 .novreads-text {
   text-align: left;
   margin: 1rem;
@@ -60,22 +88,31 @@
 }
 
 .nav-user{
-  width:13%;
+  width:11%;
   display: flex;
   align-items:center;
   padding: 0 0.5% 0px 0.5%;
   border-right: 1px solid #d3d3d3;
 }
 
+.nav-pic {
+  width:0%;
+  display: flex;
+  align-items:center;
+  padding: 0 0.5% 0px 0.5%;
+  /* border-right: 1px solid #d3d3d3; */
+  border-left: 1px solid #d3d3d3;
+}
+
 .nav-icon{
-  width:5%;
+  width:5.5%;
   display: flex;
   align-items:center;
   border-right: 1px solid #d3d3d3;
 }
 
 .nav-icon-settings{
-  border-right:0px;
+  border-right: 1px solid #d3d3d3;
 }
 
 .nav-icon-style{

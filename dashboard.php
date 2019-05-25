@@ -4,6 +4,25 @@
   <body>
     <?php include("includes/header.php");?>
     <div>
+      <div class="prof-card">
+        <div class="prof-content">
+          <div class="profile-1">
+            <img src="img\user-logo.png" alt="Profile Image" class="prof-user-img">
+            <p>Lakshya Shukla</p>
+            <p style="color:#FFA500">Novice</p>
+          </div>
+          <div class="profile-2">
+            <p><b style="font-size:2.1rem">12</b><br>Contributions</p>
+            <p><b style="font-size:2.1rem">7</b><br>Books Read</p>
+            <p><b style="font-size:2.1rem">19</b><br>Wishlist</p>
+          </div>
+          <div class="profile-3">
+
+          </div>
+        </div>
+      </div>
+
+
       <div class="card profile-nav-card">
         <p class="profile-nav-text">Profile</p>
         <p class="profile-nav-text">My Bucket List</p>

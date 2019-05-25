@@ -14,7 +14,7 @@
           </a>
         </li>
         <li class="nav-search">
-          <form action="/action_page.php">
+          <form action="search.php" method="GET">
             <input type="search" name="q" class="nav-input-search" placeholder="Search for Books, Posts...">
         </li>
         <li class="search-icon">
@@ -50,7 +50,7 @@
           </a>
         </li>
         <li class="nav-icon nav-icon-settings">
-          <a class="active" href="#home">
+          <a class="active" href="settings.php">
             <p class="nav-icon-style ti-settings"></p>
             <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>

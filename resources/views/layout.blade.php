@@ -112,7 +112,7 @@
           <p style="color:#fff"><b>Exchangable Books</b></p>
         </div>
       </a>
-      <a href="blog">
+      <a href="blogs">
         <div class="nav-blog-card">
           <p style="color:#fff"><b>Blogs</b></p>
         </div>

@@ -1,14 +1,14 @@
 @extends('layout')
 
 @section('page_title')
-  Reviews
+  Blogs
 @endsection
 
 @section('page_content')
 <div class="" style="margin-right:15%">
-    <div class="reviewreads">
-      <p class="novreads-index">Book<b> reviews</b>
-        <form class="new-post" action="/search">
+    <div class="novreads">
+      <p class="novreads-index"><b>Blogs</b>
+        <form class="new-post" action="/action_page.php">
           <input type="search" name="q" class="nav-input-search border-50 ti-plus" placeholder="Add a post..." />
           <!-- <input type="submit"> -->
         </form>

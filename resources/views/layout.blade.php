@@ -53,12 +53,12 @@
     <div id="sticky_nav" class="nav-card largenav">
       <ul class="nav-list">
         <li class="novzo-logo">
-          <a class="active" href="index.php">
+          <a class="active" href="/">
             <img src="img/logos/novzologo.png" alt="novzo-logo" class="novzo-img"/>
           </a>
         </li>
         <li class="nav-search">
-          <form action="search.php" method="GET">
+          <form action="search" method="GET">
             <input type="search" name="q" class="nav-input-search" placeholder="Search for Books, Posts...">
         </li>
         <li class="search-icon">
@@ -78,12 +78,12 @@
           </a>
         </li> -->
         <li class="nav-pic">
-          <a class="active" href="dashboard.php">
+          <a class="active" href="dashboard">
             <img src="img/profile.png" style="height:1.1rem;width:1.1rem; padding-top:0.9rem;" />
           </a>
         </li>
         <li class="nav-user">
-          <a class="active" href="dashboard.php">
+          <a class="active" href="dashboard">
             <p class="nav-user-text">Profile</p>
           </a>
         </li>
@@ -94,7 +94,7 @@
           </a>
         </li>
         <li class="nav-icon nav-icon-settings">
-          <a class="active" href="settings.php">
+          <a class="active" href="settings">
             <p class="nav-icon-style ti-settings"></p>
             <!-- <img src="img\novzologo.png" alt="novzo-logo" class="novzo-img"/> -->
           </a>
@@ -102,17 +102,17 @@
       </ul>
     </div>
     <div>
-      <a href="reviews.php">
+      <a href="reviews">
         <div class="nav-review-card">
           <p style="color:#fff"><b>Book Reviews</b></p>
         </div>
       </a>
-      <a href="exchanger.php">
+      <a href="exchanger">
         <div class="nav-exchange-card">
           <p style="color:#fff"><b>Exchangable Books</b></p>
         </div>
       </a>
-      <a href="blog.php">
+      <a href="blog">
         <div class="nav-blog-card">
           <p style="color:#fff"><b>Blogs</b></p>
         </div>
@@ -120,13 +120,13 @@
     </div>
     <div id="mobnav" class="sidenav">
         <div class="container" style="background-color: #2874f0; padding-top: 10px;">
-            <span class="sidenav-heading"><a href="index.php"><img src="img/tt2.png" alt="Novzo Logo" height="55.76" width ="100" /></a></span>
+            <span class="sidenav-heading"><a href="index"><img src="img/tt2.png" alt="Novzo Logo" height="55.76" width ="100" /></a></span>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         </div>
-        <a href="index.php">Services</a>
-        <a href="index.php">Home</a>
-        <a href="index.php">Etc</a>
-        <a href="index.php">Etc</a>
+        <a href="/">Services</a>
+        <a href="/">Home</a>
+        <a href="/">Etc</a>
+        <a href="/">Etc</a>
     </div>
     <!-- End Header -->
 

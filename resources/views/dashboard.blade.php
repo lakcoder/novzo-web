@@ -58,7 +58,7 @@
   </div>
   <div class="novreads">
     <p class="novreads-text">Your <b>posts</b>
-      <!-- <form class="new-post" action="/action_page.php">
+      <!-- <form class="new-post" action="/action_page">
         <input type="search" name="q" class="nav-input-search border-50 ti-plus" placeholder="Add a post..." />
       </form> -->
     </p>

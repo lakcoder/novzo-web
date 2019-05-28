@@ -5,7 +5,8 @@
 @endsection
 
 @section('page_content')
-<div class="" style="margin-right:14%;margin-left:15%">
+<div class="">
+
   <div class="exchangereads">
     <p class="novreads-index"><b>Exchange</b></p>
   </div>
@@ -38,7 +39,9 @@
           <div id="giveArea"></div>
         </p>
       </div>
-    <button type="submit" class="btn" name="exchange" style="float:center"><p>Submit</p></button>
-  </form>
-</div>
-@endsection
+      <div class="">
+        <button type="submit" class="btn" name="exchange" style="float:center"><p>Submit</p></button>
+      </div>
+    </form>
+  </div>
+  @endsection

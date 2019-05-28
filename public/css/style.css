@@ -246,6 +246,7 @@ li a:hover {
 .form-style {
   text-align: center;
   width: 100%;
+  margin-left: 25%;
 }
 
 .form-style input {

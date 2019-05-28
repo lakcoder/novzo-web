@@ -5,7 +5,7 @@
 @endsection
 
 @section('page_content')
-<div class="" style="margin-right:15%">
+<div class="">
     <div class="reviewreads">
       <p class="novreads-index">Book<b> reviews</b>
         <form class="new-post" action="/search">
@@ -14,7 +14,7 @@
         </form>
       </p>
     </div>
-    <div class="novpost">
+    <div class="blogpost">
       <div class="post-left">
         <img src="img\user-logo.png" alt="user-img" class="user-img"/>
       </div>
@@ -31,7 +31,7 @@
         <p style="font-size:1.2rem;" class="ti-heart"></p>
       </div>
     </div>
-    <div class="novpost normal-post">
+    <div class="blogpost normal-post">
       <div class="post-left">
         <img src="img\user-logo.png" alt="user-img" class="user-img"/>
       </div>
@@ -44,7 +44,7 @@
         <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <div class="novpost normal-post">
+    <div class="blogpost normal-post">
       <div class="post-left">
         <img src="img\user-logo.png" alt="user-img" class="user-img"/>
       </div>
@@ -57,7 +57,7 @@
         <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <div class="novpost normal-post">
+    <div class="blogpost normal-post">
       <div class="post-left">
         <img src="img\user-logo.png" alt="user-img" class="user-img"/>
       </div>

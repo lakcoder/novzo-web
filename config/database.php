@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('SIGNUPS_CONNECTION', 'mysql_signups'),
 
     /*
     |--------------------------------------------------------------------------

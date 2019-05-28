@@ -11,38 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/','PagesController@home');
+Route::get('/blogs','PagesController@blogs');
+Route::get('/dashboard','PagesController@dashboard');
+Route::get('/exchange','PagesController@exchange');
+Route::get('/exchanger','PagesController@exchanger');
+Route::get('/login','PagesController@login');
+Route::get('/reviews','PagesController@reviews');
+Route::get('/search','PagesController@search');
+Route::get('/settings','PagesController@settings');
 
-Route::get('/blogs', function () {
-    return view('blogs');
-});
+Route::get('/submit','SignupController@signup');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
-
-Route::get('/exchange', function () {
-    return view('exchange');
-});
-
-Route::get('/exchanger', function () {
-    return view('exchanger');
-});
-
-Route::get('login', function () {
-    return view('login');
-});
-
-Route::get('/reviews', function () {
-    return view('reviews');
-});
-
-Route::get('/search', function () {
-    return view('search');
-});
-
-Route::get('/settings', function () {
-    return view('settings');
-});
+Route::post('/login','SignupController@store');

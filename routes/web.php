@@ -20,3 +20,7 @@ Route::get('/login','PagesController@login');
 Route::get('/reviews','PagesController@reviews');
 Route::get('/search','PagesController@search');
 Route::get('/settings','PagesController@settings');
+
+Route::get('/submit','SignupController@signup');
+
+Route::post('/login','SignupController@store');

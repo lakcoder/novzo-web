@@ -19,7 +19,7 @@
       </ul>
     </div>
 
-    <form id="register-form" class="form-style" action="/login" method="post">
+    <form id="register-form" action="/login" method="post">
       {{ csrf_field() }}
       <input type="text" name="name" value="" placeholder="* Your Name" value="{{ old('name') }}" /><br><br>
       <input type="email" name="email" value="" placeholder="* Your Email" value="{{ old('email') }}" /><br><br>
@@ -42,8 +42,8 @@
       </ul>
     </div>
 
-    <form id="login-form" class="form-style" action="/login" method="post">
-      {{ csrf_field() }}
+    <form id="login-form" action="/login" method="post">
+      {{ csrf_fieldx() }}
       <input type="email" name="email" value="" placeholder="* Your Email"  /><br><br>
       <input type="password" name="password" placeholder="* Set a Password"  /><br><br>
       <button type="submit" class="btn" name="button"><p>Login</p></button><br>
@@ -64,7 +64,7 @@
       </ul>
     </div>
 
-    <form id="forgot-form" class="form-style" action="/login" method="post">
+    <form id="forgot-form" action="/login" method="post">
       {{ csrf_field() }}
       <input type="email" name="email" value="" placeholder="* Your Email"  /><br><br>
       <button type="submit" class="btn" name="button"><p>Submit</p></button><br>

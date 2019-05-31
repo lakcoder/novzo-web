@@ -28,7 +28,7 @@
   padding-left: 1rem;
   font-size: 1rem;
   width: 30%;
-  border-right: 1px solid #d3d3d3;
+  /* border-right: 1px solid #d3d3d3; */
 }
 
 .icon-img {
@@ -52,8 +52,9 @@
 }
 
 .profile-nav-text {
-  margin: 1rem;
-  text-align: left;
+  /* margin: 1rem; */
+  font-weight: bold;
+  text-align: center;
   border-bottom: 1px solid;
 }
 

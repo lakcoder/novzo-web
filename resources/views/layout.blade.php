@@ -130,7 +130,7 @@
     </div>
     <!-- End Header -->
 
-    @yield('page_content');
+    @yield('page_content')
 
 
     <footer>
